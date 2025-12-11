@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background: #eef2f7;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #234f9f;;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    margin-bottom: 25px;
+    border: dashed #234f9f;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #1e3a8a;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: #1f2937;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #cbd5e1;
+    margin-top: 5px;
+    font-size: 1rem;
+    background: #f8fafc;
+}
+
+input:focus, select:focus {
+    border-color: #234f9f;
+    outline: none;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #4c4b4b;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-top: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #1c3c79;
+}
+
+.error {
+    color: #dc2626;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.result {
+    color: #059669;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.history {
+    list-style: none;
+    padding: 0;
+}
+
+.history li {
+    background: #f1f5f9;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border-left: 5px solid #234f9f;
+}
+
+footer {
+    font-size: 16pt;
+    text-align: center;
+    margin-top: 30px;
+    color: #234f9f;
+    padding-bottom: 30px;
+}
